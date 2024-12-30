@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: lightgrey;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+#joke-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+    color: #333;
+    width: 70%;
+    min-height: 60vh;
+    margin: 20px auto;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#joke-setup, #joke-punchline {
+    text-align: center;
+    margin: 10px 0;
+}
+
+#author-container {
+    background-color: #203354;
+    padding: 5px;
+    color: white;
+    font-size: .85em;
+    width: 25%;
+    text-align: center;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    background-color: #203354;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+    opacity: 1;
+}
+
+button:hover {
+    opacity: 0.6;
+}
